@@ -1,0 +1,51 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+/* Sample layout style start */
+html, body,my-app{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  padding: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.e-content-animation,
+main,
+.e-content-panel,
+.e-content-panel .col-md-8,
+.e-content-panel .col-md-6,
+.e-content-panel .col-md-4 {
+  position: relative;
+  height: 100%;
+  display: block;
+}
+
+.e-content-panel .col-md-8,
+.e-content-panel .col-md-6,
+.e-content-panel .col-md-4,
+.e-content-panel.e-full-container {
+  overflow-y: auto;
+}
+
+.e-content-panel .col-md-8, 
+.e-content-panel .col-md-6,
+.e-content-panel .col-md-12{
+  padding-top: 20px;
+border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.e-prop-header{
+  height:46px;
+  line-height: 46px;
+  text-indent: 10px;
+  font-size: 17px;
+  background: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+/* Sample layout style end */
