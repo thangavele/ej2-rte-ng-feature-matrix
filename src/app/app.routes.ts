@@ -1,20 +1,20 @@
 import { Routes } from '@angular/router';
 
-import { DefaultComponent } from './default/default.component';
-import { IframeComponent } from './iframe/iframe.component';
+import { DefaultComponent } from './html-editor/default/default.component';
+import { TwoWayComponent } from './html-editor/two-way/two-way.component';
+import { DynamicRenderComponent} from './html-editor/dynamic-render/dynamic-render.component';
+import { ReactiveFormComponent } from './html-editor/reactive-form/reactive-form.component';
+import { TemplateFormComponent } from './html-editor/template-form/template-form.component';
+import { RteTemplateComponent } from './html-editor/rte-template/rte-template.component';
 
-import { TwoWayComponent } from './two-way/two-way.component';
-import { TwoWayIframeComponent } from './two-way-iframe/two-way-iframe.component';
-import { DynamicRenderComponent} from './dynamic-render/dynamic-render.component';
+import { IframeComponent } from './iframe-editor/iframe/iframe.component';
+import { TwoWayIframeComponent } from './iframe-editor/two-way-iframe/two-way-iframe.component';
 
-import { RteTemplateComponent } from './rte-template/rte-template.component';
-import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
-import { MarkdownReactiveFormComponent } from './md-reactive-form/md-reactive-form.component';
+import { MarkdownReactiveFormComponent } from './markdown-editor/md-reactive-form/md-reactive-form.component';
 
-import { TemplateFormComponent } from './template-form/template-form.component';
-import { MdDefaultComponent } from './md-default/md-default.component';
-import { TwoWayMdComponent } from './two-way-md/two-way-md.component';
-import { MarkdownTemplateFormComponent } from './md-template-form/md-template-form.component';
+import { MdDefaultComponent } from './markdown-editor/md-default/md-default.component';
+import { TwoWayMdComponent } from './markdown-editor/two-way-md/two-way-md.component';
+import { MarkdownTemplateFormComponent } from './markdown-editor/md-template-form/md-template-form.component';
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: 'default', pathMatch: 'full' },
@@ -26,14 +26,11 @@ export const rootRouterConfig: Routes = [
   { path: 'default-template-form', component: TemplateFormComponent },
 
   { path: 'iframe-rte', component: IframeComponent },
-
-  { path: 'two-way-md', component: TwoWayMdComponent },
   { path: 'two-way-iframe', component: TwoWayIframeComponent },
 
-
+  { path: 'two-way-md', component: TwoWayMdComponent },
   { path: 'md-reactive-form', component: MarkdownReactiveFormComponent },
   { path: 'md-template-form', component: MarkdownTemplateFormComponent },
-
   { path: 'md-default', component: MdDefaultComponent },
   
 ];
