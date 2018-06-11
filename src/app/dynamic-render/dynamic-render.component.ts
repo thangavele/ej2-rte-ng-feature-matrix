@@ -3,7 +3,7 @@ import { AddRteControlComponent } from './add-dynamic.component';
 import { RichTextEditorComponent } from '@syncfusion/ej2-ng-richtexteditor';
 
 @Component({
-  selector: 'dynamic-render',
+  selector: 'default-dynamic-render',
   templateUrl: './dynamic-render.html',
   entryComponents: [AddRteControlComponent],
   host: { class: 'e-content-panel e-full-container' }

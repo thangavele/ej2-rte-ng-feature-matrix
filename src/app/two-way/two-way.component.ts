@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'two-way',
+  selector: 'default-two-way',
   templateUrl: './two-way.html',
   host: { class: 'e-content-panel' }
 })

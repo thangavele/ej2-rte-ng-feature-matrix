@@ -1,7 +1,7 @@
 <div class="col-md-12">
     <form [formGroup]="heroForm" #formDir="ngForm" (ngSubmit)="registerUser(formDir)">
         <div class="form-group">
-            <ejs-richtexteditor id="name" #fromRTE formControlName="name" name="name">
+            <ejs-richtexteditor id="name" #fromRTE editorMode="Markdown" [toolbarSettings]='tools' formControlName="name" name="name">
             </ejs-richtexteditor>
             <div *ngIf="heroForm.controls.name.invalid && (heroForm.controls.name.dirty || heroForm.controls.name.touched)" class="alert alert-danger">
                 <div *ngIf="heroForm.controls.name.errors.required">

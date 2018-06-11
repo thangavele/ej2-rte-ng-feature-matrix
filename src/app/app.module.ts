@@ -29,6 +29,8 @@ import { DynamicRenderComponent } from './dynamic-render/dynamic-render.componen
 import { RteTemplateComponent } from './rte-template/rte-template.component';
 
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { MarkdownReactiveFormComponent } from './md-reactive-form/md-reactive-form.component';
+import { MarkdownTemplateFormComponent } from './md-template-form/md-template-form.component';
 import { TemplateFormComponent } from './template-form/template-form.component';
 
 
@@ -49,6 +51,8 @@ import { MdDefaultComponent } from './md-default/md-default.component';
     SidebarComponent,
     ListViewComponent,
 
+    MarkdownTemplateFormComponent,
+    MarkdownReactiveFormComponent,
     TwoWayMdComponent,
     MdDefaultComponent,
     TemplateFormComponent,

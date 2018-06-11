@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'rte-template',
+  selector: 'default-rte-template',
   templateUrl: './rte-template.html',
   host: { class: 'e-content-panel' }
 })

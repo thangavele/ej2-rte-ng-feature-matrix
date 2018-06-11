@@ -1,7 +1,7 @@
 <div class="col-md-12">
     <form #formDir="ngForm" (ngSubmit)="registerUser(formDir)">
         <div class="form-group">
-            <ejs-richtexteditor id="name" #name='ngModel' [(value)]='value' required name="name" [(ngModel)]="value"></ejs-richtexteditor>
+            <ejs-richtexteditor id="name" #name='ngModel' editorMode="Markdown" [toolbarSettings]='tools' [(value)]='value' required name="name" [(ngModel)]="value"></ejs-richtexteditor>
             <div *ngIf="(name.invalid && (name.dirty || name.touched))" class="alert alert-danger">
                 <div *ngIf="name.errors.required">
                     Value is required.

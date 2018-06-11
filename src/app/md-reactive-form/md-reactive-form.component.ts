@@ -2,15 +2,20 @@ import { Component } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { NgForm } from '@angular/forms';
 @Component({
-  selector: 'default-reactive-form',
-  templateUrl: './reactive-form.html',
+  selector: 'md-reactive-form',
+  templateUrl: './md-reactive-form.html',
   host: { class: 'e-content-panel' }
 })
-export class ReactiveFormComponent {
+export class MarkdownReactiveFormComponent {
   public value: string;
   hero: any = { name: '' };
   submitValue: any = '';
   heroForm: FormGroup;
+  public tools: Object = {
+    items: ['Bold', 'Italic', 'StrikeThrough', '|',
+      'Formats', 'OrderedList', 'UnorderedList', '|',
+      'CreateLink', 'Image', '|', 'Undo', 'Redo']
+  };
   constructor(private fb: FormBuilder) { // <--- inject FormBuilder
   }
   ngOnInit(): void {

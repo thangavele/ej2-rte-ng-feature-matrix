@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class TwoWayMdComponent {
   public rteValue: string = null;
-  public tools: object = {
+  public tools: Object = {
     items: ['Bold', 'Italic', 'StrikeThrough', '|',
       'Formats', 'OrderedList', 'UnorderedList', '|',
       'CreateLink', 'Image', '|', 'Undo', 'Redo']

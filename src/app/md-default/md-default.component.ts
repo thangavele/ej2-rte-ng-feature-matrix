@@ -14,7 +14,7 @@ export class MdDefaultComponent {
   public rteObj: RichTextEditorComponent;
   public textArea: HTMLTextAreaElement;
   public mdsource: HTMLElement;
-  public tools: object = {
+  public tools: Object = {
     items: ['Bold', 'Italic', 'StrikeThrough', '|',
       'Formats', 'OrderedList', 'UnorderedList', '|',
       'CreateLink', 'Image', '|',
