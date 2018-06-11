@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { IframeComponent } from './iframe/iframe.component';
 import { TwoWayIframeComponent } from './two-way-iframe/two-way-iframe.component';
+import { IframeTemplateFormComponent } from './template-form/template-form.component';
+import { IframeReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { IframeEevntsComponent } from './events/events.component';
+
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -23,6 +27,9 @@ import { ButtonAllModule } from '@syncfusion/ej2-ng-buttons';
     declarations: [
         IframeComponent,
         TwoWayIframeComponent,
+        IframeTemplateFormComponent,
+        IframeReactiveFormComponent,
+        IframeEevntsComponent
     ],
 
 

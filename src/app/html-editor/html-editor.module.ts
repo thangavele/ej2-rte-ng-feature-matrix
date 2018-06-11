@@ -8,6 +8,7 @@ import { DynamicRenderComponent } from './dynamic-render/dynamic-render.componen
 import { RteTemplateComponent } from './rte-template/rte-template.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TemplateFormComponent } from './template-form/template-form.component';
+import { DefaultEevntsComponent } from './events/events.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { RichTextEditorAllModule } from '@syncfusion/ej2-ng-richtexteditor';
@@ -33,7 +34,8 @@ import { ButtonAllModule } from '@syncfusion/ej2-ng-buttons';
         DefaultComponent,
         TwoWayComponent,
         AddRteControlComponent,
-        DynamicRenderComponent
+        DynamicRenderComponent,
+        DefaultEevntsComponent
     ],
     schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { TwoWayMdComponent } from './two-way-md/two-way-md.component';
 import { MarkdownReactiveFormComponent } from './md-reactive-form/md-reactive-form.component';
 import { MarkdownTemplateFormComponent } from './md-template-form/md-template-form.component';
+import { MarkdownEevntsComponent } from './events/events.component';
+
 import { MdDefaultComponent } from './md-default/md-default.component';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -26,6 +28,7 @@ import { ButtonAllModule } from '@syncfusion/ej2-ng-buttons';
   declarations: [
     MarkdownTemplateFormComponent,
     MarkdownReactiveFormComponent,
+    MarkdownEevntsComponent,
     TwoWayMdComponent,
     MdDefaultComponent
   ],
