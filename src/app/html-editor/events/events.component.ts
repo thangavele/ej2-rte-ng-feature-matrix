@@ -6,7 +6,7 @@ import { ActionBeginEventArgs, ActionCompleteEventArgs } from '@syncfusion/ej2-n
   host: { class: 'e-content-panel' }
 })
 export class DefaultEevntsComponent {
-  public tools: object = {
+  public tools: Object = {
     items: ['Bold', 'Italic', 'Underline', 'StrikeThrough',
       'FontName', 'FontSize', 'FontColor', 'BackgroundColor',
       'LowerCase', 'UpperCase', '|',

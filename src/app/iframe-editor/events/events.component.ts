@@ -9,7 +9,7 @@ export class IframeEevntsComponent {
   public iframeSettings: Object = {
     enable: true
   }
-  public tools: object = {
+  public tools: Object = {
     items: ['Bold', 'Italic', 'Underline', 'StrikeThrough',
       'FontName', 'FontSize', 'FontColor', 'BackgroundColor',
       'LowerCase', 'UpperCase', '|',

@@ -33,6 +33,9 @@ main,
 .e-content-panel.e-full-container {
   overflow-y: auto;
 }
+.e-content-panel .col-md-4.prop .col-md-6{
+  overflow: hidden;
+}
 
 .e-content-panel .col-md-8, 
 .e-content-panel .col-md-6,
@@ -49,3 +52,9 @@ border-right: 1px solid rgba(0, 0, 0, 0.12);
   border: 1px solid rgba(0, 0, 0, 0.12);
 }
 /* Sample layout style end */
+
+/* Property panel */
+/* 
+.complex>[data-prop="backgroundColor"]{
+display: none;
+} */
